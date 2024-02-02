@@ -1,10 +1,4 @@
 import React from 'react'
-import painting from '../assets/images/painting.jpg'
-import christmas from '../assets/images/christmas-pj.png'
-import portfolioMaker from '../assets/images/portfolio-maker.png'
-import blogWeb from '../assets/images/blog-web.jpg'
-import asiaFoodDashboard from '../assets/images/asia-food.png'
-import asiaFoodPOS from '../assets/images/asiafood-pos.png'
 
 const Projects = () => {
   const showProject = (name) => {
@@ -12,22 +6,22 @@ const Projects = () => {
     console.log(name);
     switch (name) {
       case 'blogWeb':
-        previewProject.src = blogWeb
+        previewProject.src = 'https://i.imgur.com/sG8qgdK.jpg'
         break;
       case 'christmas':
-        previewProject.src = christmas
+        previewProject.src = 'https://i.imgur.com/Jjyh6yj.png'
         break;
       case 'portfolioMaker':
-        previewProject.src = portfolioMaker
+        previewProject.src = 'https://i.imgur.com/n8ybZtH.png'
         break;
       case 'asiaFoodDashboard':
-        previewProject.src = asiaFoodDashboard
+        previewProject.src = 'https://i.imgur.com/niwTX2C.png'
         break;
       case 'asiaFoodPOS':
-        previewProject.src = asiaFoodPOS
+        previewProject.src = 'https://i.imgur.com/bP81rzL.png'
         break;
       default:
-        previewProject.src = painting
+        previewProject.src = 'https://i.imgur.com/d8zNno5.jpg'
         break;
     }
   }
