@@ -3,7 +3,6 @@ import React from 'react'
 const Projects = () => {
   const showProject = (name) => {
     let previewProject = document.getElementById('preview-project')
-    console.log(name);
     switch (name) {
       case 'blogWeb':
         previewProject.src = 'https://i.imgur.com/sG8qgdK.jpg'
@@ -41,7 +40,7 @@ const Projects = () => {
 
       </div>
       <div className='h-[500px] flex items-center mt-24'>
-        <img src={painting} alt="pj" className='w-[500px]' id='preview-project' />
+        <img src='https://i.imgur.com/d8zNno5.jpg' alt="pj" className='w-[500px]' id='preview-project' />
       </div>
     </div>
   )
