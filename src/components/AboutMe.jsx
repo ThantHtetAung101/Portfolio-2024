@@ -35,7 +35,7 @@ const AboutMe = () => {
             a <span className="font-bold">JUNIOR WEB DEVELOPER</span> at the start of 2023.
           </div>
           <div className="mt-5 ms-5">
-            <h1 className="text-3xl dm-san">What I Do?</h1>
+            <h1 className="text-3xl dm-san">What Is My Profession?</h1>
             <div className="mt-3 dm-san">
               <span className='flex items-center'>
                 2023 — Present <pre className='font-bold'>   APP.COM.MM</pre>
